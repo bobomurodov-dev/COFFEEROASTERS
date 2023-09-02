@@ -1,0 +1,95 @@
+.works {
+    width: 100%;
+    padding-left: 85px;
+    margin-bottom: 200px;
+
+    &__title{
+        font-family: fraunces;
+        font-weight: 900;
+        color: #83888F;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 80px;
+    }
+
+    &__sections {
+        width: 760px;
+        height: 2px;
+        background-color: #FDD6BA;
+        position: relative;
+        margin-bottom: 82px;
+
+        &-span {
+            position: absolute;
+            display: block;
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+            border: 1px solid #0E8784;
+            top: -14px;
+            background-color: #fff;
+
+        }
+
+        &-span:nth-child(2) {
+            left: 370px;
+        }
+        &-span:last-child {
+            right: -20px;
+        }
+    }
+
+    &__bottom {
+        width: 100%;
+        display: flex;
+        column-gap: 95px;
+
+        &-card {
+            max-width: 285px;
+            width: 100%;
+            
+
+            &__first {
+                font-size: 72px;
+                line-height: 72px;
+                font-family: fraunces;
+                color: #FDD6BA;
+                font-weight: 900;
+                margin-bottom: 38px;
+            }
+
+            &__title {
+                font-size: 32px;
+                font-weight: 900;
+                line-height: 36px;
+                font-family: fraunces;
+                max-width: 235px;
+                margin-bottom: 42px;
+            }
+
+            &__description {
+                color: #333D4B;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: barlow;
+                line-height: 26px;
+                max-width: 285px;
+            }
+            &__button {
+                margin-top: 79px;
+            }
+            .main-button {
+                @include main-button();
+                
+            }
+            .main-button:hover {
+                @include hover-button();
+            }
+            .main-button:active {
+                @include active-btn()
+            }
+        }
+    }
+
+    
+}

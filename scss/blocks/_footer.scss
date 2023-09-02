@@ -1,0 +1,36 @@
+.footer {
+    padding: 47px 85px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C343E;
+    align-items: center;
+
+    &__menu {
+        display: flex;
+        text-transform: uppercase;
+        column-gap: 33px;
+        position: relative;
+        left: -100px;
+
+        li a {
+            color: #83888F;
+            font-size: 12px;
+            font-weight: 700;
+            font-family: barlow;
+            letter-spacing: 0.92px;
+            line-height: 15px;
+            transition: .2s;
+        }
+        li a:hover {
+            color: #FEFCF7;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        column-gap: 24px;
+        align-items: center;
+    }
+
+}
+
