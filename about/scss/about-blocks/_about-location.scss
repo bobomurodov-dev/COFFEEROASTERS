@@ -1,0 +1,65 @@
+.location {
+    width: 100%;
+    padding: 0 85px;
+    margin-bottom: 168px;
+    &__head {
+        margin-bottom: 72px;
+        &-title {
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 900;
+            color: #83888F;
+            font-family: fraunces;
+
+        }
+
+
+    }
+
+    &__bottom {
+        display: flex;
+        column-gap: 95px;
+
+        &-card {
+            width: 285px;
+            
+            &__img {
+                margin-bottom: 45px;
+            }
+            &__title {
+                font-family: fraunces;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+                margin-bottom: 24px;
+            }
+            &__gps {
+                
+                width: 500px;
+                font-family: barlow;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+                a {
+                    color: #333D4B;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+.ssss {
+    max-width: 130px;
+    font-family: barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    a span{
+        display: block;
+        color: #333D4B;
+    }
+}

@@ -1,0 +1,37 @@
+.quality {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 85px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    margin-bottom: 168px;
+
+    &__img {
+        border-radius: 8px;
+        position: relative;
+        top: -88px;
+    }
+
+    &__texts {
+        max-width: 540px;
+
+        &-title {
+            font-family: fraunces;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FEFCF7;
+            margin-bottom: 32px;
+        }
+        &-description {
+            font-size: 16px;
+            font-family: barlow;
+            line-height: 26px;
+            color: #FEFCF7;
+            font-weight: 400;
+            opacity: 80%;
+        }
+    }
+}

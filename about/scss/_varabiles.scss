@@ -24,6 +24,12 @@
 
 }
 
+@mixin icons-hover {
+    filter: sepia(100%) hue-rotate(357deg) contrast(228%);
+    -webkit-filter: sepia(100%) hue-rotate(357deg) contrast(228%);
+    -moz-filter: sepia(100%) hue-rotate(357deg) contrast(228%);
+    background-color: red;
+}
 
 
 
